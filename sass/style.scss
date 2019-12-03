@@ -4,6 +4,16 @@ $base-font-family-code: monospace;
 $base-font-size: 1rem;
 $base-line-height: 1.5;
 $base-font-family: $base-font-family-serif;
+$base-headings-font-family: $base-font-family-serif;
+$base-headings: (
+	(h1, $base-headings-font-family),
+	(h2, $base-font-family),
+	(h3, $base-headings-font-family),
+	(h4, $base-headings-font-family),
+	(h5, $base-headings-font-family),
+	(h6, $base-headings-font-family)
+);
+@import "helpers/functions";
 @import "helpers/mixins";
 *, *::before, *::after{
 	box-sizing: border-box;
@@ -23,3 +33,7 @@ p{
 	margin-bottom: $base-line-height + rem;
 	@include base-font-family-sizing();
 }
+h1, h2, h3, h4, h5, h6 {
+	font-family: $base-headings-font-family;
+}
+@include base-headings();

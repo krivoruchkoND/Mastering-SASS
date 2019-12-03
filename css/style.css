@@ -17,10 +17,50 @@ p {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
+  font-size: base-font-sizes-calc();
   font-family: serif;
   line-height: 1.5;
   margin-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 2.3rem;
+  line-height: base-heading-size-calc(serif, 2);
+}
+
+h2 {
+  font-family: serif;
+  font-size: 1.72504rem;
+  line-height: base-heading-size-calc(serif, 3);
+}
+
+h3 {
+  font-family: serif;
+  font-size: 1.34548rem;
+  line-height: base-heading-size-calc(serif, 4);
+}
+
+h4 {
+  font-family: serif;
   font-size: 1.15rem;
+  line-height: base-heading-size-calc(serif, 5);
+}
+
+h5 {
+  font-family: serif;
+  font-size: 0.95452rem;
+  line-height: base-heading-size-calc(serif, 6);
+}
+
+h6 {
+  font-family: serif;
+  font-size: 0.77052rem;
+  line-height: base-heading-size-calc(serif/base-heading-size-calc(serif, 2), 6);
 }
 
 /*# sourceMappingURL=style.css.map */
