@@ -18,7 +18,7 @@ p {
   line-height: 1.5;
   margin-bottom: 1.5rem;
   font-size: base-font-sizes-calc();
-  font-family: serif;
+  font-family: monospace;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
@@ -34,9 +34,9 @@ h1 {
 }
 
 h2 {
-  font-family: serif;
-  font-size: 1.72504rem;
-  line-height: base-heading-size-calc(serif, 3);
+  font-family: monospace;
+  font-size: 1.50004rem;
+  line-height: base-heading-size-calc(monospace, 3);
 }
 
 h3 {
@@ -46,9 +46,9 @@ h3 {
 }
 
 h4 {
-  font-family: serif;
-  font-size: 1.15rem;
-  line-height: base-heading-size-calc(serif, 5);
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: base-heading-size-calc(monospace, 5);
 }
 
 h5 {
@@ -58,9 +58,9 @@ h5 {
 }
 
 h6 {
-  font-family: serif;
-  font-size: 0.77052rem;
-  line-height: base-heading-size-calc(serif/base-heading-size-calc(serif, 2), 6);
+  font-family: monospace;
+  font-size: 0.67001rem;
+  line-height: base-heading-size-calc(monospace/base-heading-size-calc(monospace, 2), 6);
 }
 
 /*# sourceMappingURL=style.css.map */
