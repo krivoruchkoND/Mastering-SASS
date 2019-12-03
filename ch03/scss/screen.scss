@@ -1,0 +1,47 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+$base-font-size: 16px;
+$base-line-height: $base-font-size * 1.5;
+$base-heading-sizes: (2, 1.5, 1.17, 1, 0.83, 0.67);
+
+@import "compass/reset";
+@import "compass/typography";
+
+@include establish-baseline;
+
+body > div{
+	max-width: 38rem;
+	margin: 0 auto;
+}
+html{
+	@include baseline-grid-background;
+}
+.vertical-rhythm{
+	display: block;
+	width: auto;
+}
+.vertical-rhythm[height="300"][width="600"]{
+	height: rhythm(6);
+	@media(min-width: 420px){
+		height: rhythm(8);
+	}
+	@media(min-width: 520px){
+		height: rhythm(10);
+	}
+	@media(min-width: 620px){
+		height: rhythm(12);
+	}
+}
+.vertical-rhythm[height="300"][width="600"]{
+	height: rhythm(8);
+}
+@for $i from 1 through 6{
+	h#{$i}{
+		@include adjust-font-size-to($base-font-size * nth($base-heading-sizes, $i));
+	}
+}
+p{
+	@include trailer(1);
+}
