@@ -1,0 +1,25 @@
+$base-font-family-sans: sans-serif;
+$base-font-family-serif: serif;
+$base-font-family-code: monospace;
+$base-font-size: 1rem;
+$base-line-height: 1.5;
+$base-font-family: $base-font-family-serif;
+@import "helpers/mixins";
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+}
+body > div{
+	max-width: 38rem;
+	margin: 0 auto;
+}
+p{
+	font-family: $base-font-family-sans;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	margin-bottom: $base-line-height + rem;
+	@include base-font-family-sizing();
+}
