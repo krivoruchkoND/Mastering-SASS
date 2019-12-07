@@ -1,0 +1,21 @@
+.header-logo, .header-search-input, .header-search-button {
+  float: left;
+}
+
+.header-search {
+  float: right;
+}
+
+.header {
+  overflow: hidden;
+}
+
+.header {
+  background-color: #ffe53d;
+}
+
+.header {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

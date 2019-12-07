@@ -1,0 +1,23 @@
+.product {
+	padding: 1em;
+	overflow: hidden;
+	&-image {
+		float: left;
+		margin-right: 1em;
+	}
+	&-title {
+		margin-top: 0;
+		&-link {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+	&-sale {
+		margin-left: 1em;
+		opacity: 0.5;
+	}
+	&-button {
+		padding: 0.25em 0.5em;
+		float: right;
+	}
+}

@@ -1,0 +1,24 @@
+
+%float-left {
+	float: left;
+}
+%float-right {
+	float: right;
+}
+%clearfix {
+	overflow: hidden;
+}
+%bg-banana-yellow {
+	background-color: hsl(52, 100%, 62%);
+}
+.header {
+	width: 100%;
+	@extend %clearfix;
+	@extend %bg-banana-yellow;
+	&-logo, &-search-input, &-search-button {
+		@extend %float-left;
+	}
+	&-search {
+		@extend %float-right;
+	}
+}
