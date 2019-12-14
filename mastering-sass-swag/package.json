@@ -1,0 +1,20 @@
+{
+  "name": "mastering-sass-swag",
+  "version": "1.0.0",
+  "description": "Front-end for mastering sass swag",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch --compass --style=expanded --line-comments --line-numbers --sourcemap=auto assets/scss/style.scss:assets/css/style.css",
+    "sass:compile": "sass --update --compass --sourcemaps=none -- style=compressed --force assets/scss:assets/css"
+  },
+  "author": "Nikita",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.0"
+  }
+}

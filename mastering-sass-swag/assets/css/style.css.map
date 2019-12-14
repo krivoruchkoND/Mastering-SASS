@@ -1,0 +1,1 @@
+{"version":3,"mappings":";AAAA,SAAS;EACR,UAAU,EAAE,MAAM","sources":["style.scss"],"names":[],"file":"style.css","sourcesContent":["h1, h2, p{\n\ttext-align: center;\n}"]}
