@@ -1,0 +1,60 @@
+@mixin media-container($spacing: 1em) {
+	padding: $spacing;
+	overflow: hidden;
+}
+@mixin media-image($img-align: left, $spacing: 1em) {
+	display: block;
+	float: $img-align;
+	@if ($img-align == unquote(right)) {
+		margin-left: $spacing;
+	} @else if ($img-align == unquote(left)){
+		margin-right: $spacing;
+	} @else {
+		margin: 0 auto;
+	}
+}
+
+@mixin media-title($color: black, $link-color: inherit, $link-hover-color: inherit, $text-transform: uppercase) {
+	margin-top: 0;
+	text-transform: $text-transform;
+	color: $color;
+	a {
+		@include hover-link;
+		color: $link-color;
+		&:hover {
+			color: $link-hover-color;
+		}
+	}
+}
+@mixin media-button($img-align: left, $spacing: 1em, $background-color:black, $text-color: white, $border-width: 1px, $text-transform: uppercase){
+	padding: ($spacing * 0.25) ($spacing * 0.5);
+	text-transform: $text-transform;
+	text-decoration: none;
+	color: $text-color;
+	background-color: $background-color;
+	border: $border-width solid transparent;
+	@if ($img-align == unquote(none)) {
+		float: none;
+	} @else if ($img-align == unquote(left) or $img-align == unquote(right)) {
+		float: if($img-align == left, right, left);
+	} @else {
+		@warn 'First parameter of `media-button` mixin must be `left` or `right`. `#{$img-align}` given.';
+	}
+	&:hover {
+		color: $background-color;
+		background: transparent;
+		border: $border-width solid;
+	}
+}
+@mixin media($img-align: left, $spacing: 1em, $color: black) {
+	@include media-container($spacing);
+	&-image {
+		@include media-image($img-align, $spacing);
+	}
+	&-title {
+		@include media-title($color);
+	}
+	&-button {
+		@include media-button($img-align, $spacing, $color);
+	}
+}

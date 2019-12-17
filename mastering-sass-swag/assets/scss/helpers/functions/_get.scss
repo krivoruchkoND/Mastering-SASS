@@ -1,0 +1,10 @@
+@function get($map, $arglist...)
+{
+	$m: $map;
+	@each $item in $arglist {
+		@if $m != null {
+			$m: map-get($m, $item);
+		}
+	}
+	@return $m;
+}

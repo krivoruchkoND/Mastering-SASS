@@ -7,6 +7,99 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+	<nav class="top-nav">
+		<div class="container">
+			<ul class="top-nav-menu top-nav-contact-menu">
+				<li class="top-nav-menu-item top-nav-contact-menu-item">
+					<span class="ion-android-phone-portrait"></span>
+					<a href="tel:+0123456789">
+						<span class="top-nav-menu-text top-nav-contact-menu-text">
+							+0123456789
+						</span>
+					</a>
+				</li>
+				<li class="top-nav-menu-item top-nav-contact-menu-item">
+					<span class="ion-email"></span>
+					<a href="mailto:lizey@bk.ru">
+						<span class="top-nav-menu-text top-nav-contact-menu-text">
+							Lizey@bk.ru
+						</span>
+					</a>
+				</li>
+				<li class="top-nav-menu-item top-nav-contact-menu-item">
+					<span class="ion-social-facebook"></span>
+					<a href="javascript:;" target="_blank">
+						<span class="top-nav-menu-text top-nav-contact-menu-text">
+							Facebook
+						</span>
+					</a>
+				</li>
+				<li class="top-nav-menu-item top-nav-social-menu-item">
+					<span class="ion-social-twitter"></span>
+					<a href="javascript:;" target="_blank">
+						<span class="top-nav-menu-text top-nav-contact-menu-text">
+							Twitter
+						</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="top-nav-menu-item top-nav-shop-menu">
+				<li class="top-nav-menu-item top-nav-shop-menu-item">
+					<span class="ion-filing"></span>
+					<a href="#">
+						<span class="top-nav-menu-text top-nav-shop-menu-text">
+							Account
+						</span>
+					</a>
+				</li>
+				<li class="top-nav-menu-item top-nav-shop-menu-item">
+					<span class="ion-ios-cart"></span>
+					<a href="javascript:;" id="cart-button">
+						<span class="top-nav-menu-text top-nav-shop-menu-text">
+							Cart
+						</span>
+					</a>
+				</li>
+				<li class="top-nav-menu-item top-nav-shop-menu-item">
+					<span class="ion-ios-locked"></span>
+					<a href="javascript:;">
+						<span class="top-nav-menu-text top-nav-shop-menu-text">
+							Login
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header class="main-header">
+		<div class="main-header-inner container">
+			<div class="two-thirds column">
+				<h1 class="main-header-title">Mastering Sass Swag</h1>
+			</div>
+			<div class="one-third column">
+				<form class="search-bar" action="#" method="get">
+					<label for="search">
+						<span class="screen-reader-text">Search for:</span>
+					</label>
+					<input id="search" class="search-bar-input" type="search" placeholder="Search...">
+					<button class="search-bar-button" type="submit">
+						<span class="screen-reader-text">Search</span>
+						<span class="ion-android-search"></span>
+					</button>
+				</form>
+			</div>
+		</div>
+	</header>
+	<nav class="main-nav">
+		<ul class="main-nav-menu container">
+		<li class="main-nav-menu-item"><a href="#">Home</a></li>
+		<li class="main-nav-menu-item"><a href="#">Our Swag</a></li>
+		<li class="main-nav-menu-item"><a href="#">Our Blog</a></li>
+		<li class="main-nav-menu-item"><a href="#">Our Customers</a></li>
+		<li class="main-nav-menu-item"><a href="#">Who We Are</a></li>
+		<li class="main-nav-menu-item"><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 	<main>
 		<h1>Mastering Sass Swag</h1>
 		<h2>Coming soon</h2>
@@ -17,5 +110,13 @@
 			We'll find something to cover it up with real soon!
 		</p>
 	</main>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script>
+	// Use jQuery in noConflict mode...
+		jQuery(document).ready(function ($) {
+			alert('jQuery!');
+		});
+	</script>
 </body>
 </html>

@@ -1,3 +1,21 @@
-h1, h2, p{
-	text-align: center;
+$default-breakpoint: medium;
+$breakpoints: (
+	small: 480px,
+	medium: 768px,
+	large: 980px);
+$grid: (max-width: 1160px, gutter: 1em);
+$ionicons-font-path: "fonts/ionicons";
+@import "helpers/all.scss";
+@import "base/normalize.scss";
+@import "base/global.scss";
+@import "base/typography.scss";
+@import "layout/grid.scss";
+@import "components/top-nav.scss";
+@import "components/search.scss";
+@import "theme/ionicons/ionicons.scss";
+body{
+	background-color: red;
+	@include bp{
+		background-color: green;
+	}
 }

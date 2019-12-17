@@ -25,7 +25,7 @@ gulp.task('sass:compile', () => {
 	})
 	.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest(pathto.css))
-	.pipe(sync.stream());
+	.pipe(sync.stream({match: pathto.css + '/*.css'}));
 });
 gulp.task('sass:watch', () => {
 	gulp.watch(glob.sass, gulp.series('sass:compile'));
@@ -45,3 +45,4 @@ gulp.task('serve', gulp.series('log', done => {
 	gulp.watch('./*.html').on('change', sync.reload);
 	done();
 }));
+gulp.task('default', gulp.series('serve'));
