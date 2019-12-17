@@ -491,6 +491,110 @@ p, h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 
+/* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  right: -100vw;
+  transition: transform 350ms;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  /* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+  .cart {
+    width: 20em;
+    right: -20em;
+  }
+}
+/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 48, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item {
+  padding: 1em 1em 1em 0;
+  overflow: hidden;
+}
+/* line 50, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-image {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  max-width: 50px;
+  height: auto;
+}
+/* line 55, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+}
+/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.cart-list-item-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.cart-list-item-title a:hover, .cart-list-item-title a:focus {
+  text-decoration: underline;
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.cart-list-item-title a:hover {
+  color: inherit;
+}
+/* line 58, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-price {
+  float: left;
+}
+/* line 60, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-price-label {
+  font-weight: bold;
+}
+/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-remove {
+  text-decoration: none;
+  float: right;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.cart-list-item-remove:hover, .cart-list-item-remove:focus {
+  text-decoration: underline;
+}
+
+/* line 71, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart.is-opened {
+  transform: translateX(-100vw);
+}
+@media (min-width: 768px) {
+  /* line 71, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+  .cart.is-opened {
+    transform: translateX(-20em);
+  }
+}
+
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+  .footer-copyright, .footer-nav {
+    width: 50%;
+    float: left;
+  }
+}
+/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-nav-menu {
+  float: right;
+}
+
 /*!
 Ionicons, v2.0.0
 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -4996,14 +5100,21 @@ Modified icons to fit ionicon’s grid from original.
   animation-timing-function: steps(8, start);
 }
 
-/* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
+/* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
 body {
   background-color: red;
 }
 @media (min-width: 768px) {
-  /* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
+  /* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
   body {
     background-color: green;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 34, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
+  main {
+    min-height: 800px;
   }
 }
 

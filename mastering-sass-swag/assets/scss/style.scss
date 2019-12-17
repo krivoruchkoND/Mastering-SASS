@@ -3,6 +3,16 @@ $breakpoints: (
 	small: 480px,
 	medium: 768px,
 	large: 980px);
+$cart: (
+	slide-in: right,
+	height: 100vh,
+	width: (
+		small: 100vw,
+		medium: 20em
+	),
+	spacing: 1em,
+	bg-color: white,
+	transition-speed: 350ms);
 $grid: (max-width: 1160px, gutter: 1em);
 $ionicons-font-path: "fonts/ionicons";
 @import "helpers/all.scss";
@@ -12,10 +22,17 @@ $ionicons-font-path: "fonts/ionicons";
 @import "layout/grid.scss";
 @import "components/top-nav.scss";
 @import "components/search.scss";
+@import "components/cart.scss";
+@import "components/footer.scss";
 @import "theme/ionicons/ionicons.scss";
 body{
 	background-color: red;
 	@include bp{
 		background-color: green;
+	}
+}
+main {
+	@include bp {
+		min-height: 800px;
 	}
 }

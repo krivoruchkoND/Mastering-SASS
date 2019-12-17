@@ -58,3 +58,25 @@
 		@include media-button($img-align, $spacing, $color);
 	}
 }
+@mixin media-centered($img: fullwidth, $spacing: 1em, $color: black) {
+	@include media-container($spacing);
+	text-align: center;
+	&-image {
+		@include media-image(none, $spacing);
+		@if ($img == unquote(fullwidth)) {
+			width: 100%;
+			height: auto;
+		} @else if ($img == unquote(rounded)) {
+			border-radius: 9999px;
+		} @else {
+			@warn 'First parameter of `media-centered` mixin must be `fullwidth` or `rounded`. `#{$img}` given.';
+		}
+	}
+	&-title {
+		@include media-title($color);
+		margin-top: $spacing;
+	}
+	&-button {
+		@include media-button(none, $spacing, $color);
+	}
+}
