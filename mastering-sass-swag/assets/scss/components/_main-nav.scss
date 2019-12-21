@@ -1,0 +1,21 @@
+.main-nav {
+	&-menu-item {
+		padding: $spacing / 2;
+		display: block;
+		@include bp(small) {
+			display: inline-block;
+		}
+	}
+	&-menu-button {
+		padding: $spacing / 2;
+		@include bp(small) {
+			display: none;
+		}
+		~ * {
+			display: none;
+			@include bp(small) {
+				display: block;
+			}
+		}
+	}
+}
