@@ -6,6 +6,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps");
+@import url("http://fonts.googleapis.com/css?family=Roboto");
 /* line 11, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
@@ -1049,626 +1051,6 @@ p, h1, h2, h3, h4, h5, h6 {
   /* line 19, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/layout/_grid.scss */
   .col-12-large-last {
     width: 100%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav {
-  overflow: hidden;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav-menu-button {
-  padding: 0.5em;
-}
-@media (min-width: 480px) {
-  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-menu-button {
-    display: none;
-  }
-}
-/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav-menu-button ~ * {
-  display: none;
-}
-@media (min-width: 480px) {
-  /* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-menu-button ~ * {
-    display: block;
-  }
-}
-/* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-.top-nav-menu-item {
-  padding: 0.5em;
-  display: block;
-}
-@media (min-width: 480px) {
-  /* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-menu-item {
-    display: inline-block;
-  }
-}
-@media (min-width: 768px) {
-  /* line 22, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-contact-menu {
-    float: left;
-  }
-}
-@media (min-width: 768px) {
-  /* line 27, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
-  .top-nav-shop-menu {
-    float: right;
-  }
-}
-
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-inner {
-  padding: 0.5em;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-inner-left {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-@media (min-width: 768px) {
-  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
-  .main-header-inner-left {
-    width: 65.95745%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-}
-/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
-.main-header-inner-right {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-@media (min-width: 768px) {
-  /* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
-  .main-header-inner-right {
-    width: 31.91489%;
-    float: right;
-    margin-right: 0;
-  }
-}
-
-/* line 2, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav-menu-item {
-  padding: 0.5em;
-  display: block;
-}
-@media (min-width: 480px) {
-  /* line 2, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-  .main-nav-menu-item {
-    display: inline-block;
-  }
-}
-/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav-menu-button {
-  padding: 0.5em;
-}
-@media (min-width: 480px) {
-  /* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-  .main-nav-menu-button {
-    display: none;
-  }
-}
-/* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-.main-nav-menu-button ~ * {
-  display: none;
-}
-@media (min-width: 480px) {
-  /* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
-  .main-nav-menu-button ~ * {
-    display: block;
-  }
-}
-
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_search.scss */
-.search-bar {
-  position: relative;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_search.scss */
-.search-bar-input {
-  width: 100%;
-  line-height: 1.4;
-  max-height: 2em;
-  padding: 0.25em 2em 0.25em 0.25em;
-}
-/* line 11, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_search.scss */
-.search-bar-button {
-  line-height: 1.4;
-  max-height: 2em;
-  padding: 0.25em 0.5em;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  padding: 1em;
-  top: 0;
-  bottom: 0;
-  z-index: 9999;
-  right: -100vw;
-  transition: transform 350ms;
-  background-color: white;
-}
-@media (min-width: 768px) {
-  /* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-  .cart {
-    width: 20em;
-    right: -20em;
-  }
-}
-/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
-/* line 48, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item {
-  padding: 1em 1em 1em 0;
-  overflow: hidden;
-}
-/* line 50, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-image {
-  display: block;
-  float: left;
-  margin-right: 1em;
-  max-width: 50px;
-  height: auto;
-}
-/* line 55, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: black;
-}
-/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.cart-list-item-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.cart-list-item-title a:hover, .cart-list-item-title a:focus {
-  text-decoration: underline;
-}
-/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.cart-list-item-title a:hover {
-  color: inherit;
-}
-/* line 58, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-price {
-  float: left;
-}
-/* line 60, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-price-label {
-  font-weight: bold;
-}
-/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart-list-item-remove {
-  text-decoration: none;
-  float: right;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.cart-list-item-remove:hover, .cart-list-item-remove:focus {
-  text-decoration: underline;
-}
-
-/* line 71, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-.cart.is-opened {
-  transform: translateX(-100vw);
-}
-@media (min-width: 768px) {
-  /* line 71, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
-  .cart.is-opened {
-    transform: translateX(-20em);
-  }
-}
-
-/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-overlay {
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-@media (min-width: 980px) {
-  /* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-  .image-banner-overlay {
-    height: 400px;
-  }
-}
-/* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-caption {
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.5em;
-  overflow: hidden;
-}
-/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/node_modules/susy/sass/susy/output/support/_clearfix.scss */
-.image-banner-caption:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-@media (min-width: 980px) {
-  /* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-  .image-banner-caption {
-    position: relative;
-    top: 100px;
-  }
-}
-/* line 23, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-caption-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: white;
-}
-/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.image-banner-caption-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.image-banner-caption-title a:hover, .image-banner-caption-title a:focus {
-  text-decoration: underline;
-}
-/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.image-banner-caption-title a:hover {
-  color: inherit;
-}
-/* line 27, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
-.image-banner-button {
-  padding: 0.25em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  border: 1px solid transparent;
-  float: none;
-}
-/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.image-banner-button:hover {
-  color: black;
-  background: transparent;
-  border: 1px solid;
-}
-
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-.featured-product {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-.featured-product-title {
-  padding-top: 1em;
-}
-/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-.featured-products {
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 0.5em;
-}
-/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/node_modules/susy/sass/susy/output/support/_clearfix.scss */
-.featured-products:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-@media (min-width: 480px) {
-  /* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product {
-    width: 48.93617%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 17, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product:nth-child(2), .featured-product:nth-child(4) {
-    width: 48.93617%;
-    float: right;
-    margin-right: 0;
-  }
-}
-@media (min-width: 768px) {
-  /* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product:nth-child(2) {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 31, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
-  .featured-product:nth-child(4) {
-    width: 23.40426%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_product-centered.scss */
-.product-centered {
-  padding: 1em;
-  overflow: hidden;
-  text-align: center;
-  padding-left: 0;
-  padding-right: 0;
-}
-/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-image {
-  display: block;
-  float: none;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
-/* line 75, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: black;
-  margin-top: 1em;
-}
-/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.product-centered-title a:hover, .product-centered-title a:focus {
-  text-decoration: underline;
-}
-/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-title a:hover {
-  color: inherit;
-}
-/* line 79, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-button {
-  padding: 0.25em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  border: 1px solid transparent;
-  float: none;
-}
-/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.product-centered-button:hover {
-  color: black;
-  background: transparent;
-  border: 1px solid;
-}
-/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_product-centered.scss */
-.product-centered-title {
-  margin-top: 0;
-}
-
-/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonial {
-  max-width: 20em;
-  margin: 0 auto;
-  padding: 1em;
-  overflow: hidden;
-  text-align: center;
-}
-/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-image {
-  display: block;
-  float: none;
-  margin: 0 auto;
-  border-radius: 9999px;
-}
-/* line 75, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: black;
-  margin-top: 1em;
-}
-/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.testimonial-title a:hover, .testimonial-title a:focus {
-  text-decoration: underline;
-}
-/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-title a:hover {
-  color: inherit;
-}
-/* line 79, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-button {
-  padding: 0.25em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  border: 1px solid transparent;
-  float: none;
-}
-/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.testimonial-button:hover {
-  color: black;
-  background: transparent;
-  border: 1px solid;
-}
-/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonials {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-/* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
-.testimonials-overlay {
-  min-height: 300px;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer {
-  overflow: hidden;
-}
-@media (min-width: 768px) {
-  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
-  .footer-copyright, .footer-nav {
-    width: 50%;
-    float: left;
-  }
-}
-/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer-copyright {
-  padding: 1em 0.5em;
-}
-/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer-nav-menu {
-  float: right;
-}
-/* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
-.footer-nav-menu-item a {
-  display: inline-block;
-  padding: 1em 0.5em;
-}
-
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter {
-  padding: 1em 0.5em;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 10, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-product {
-  padding: 1em;
-  overflow: hidden;
-  padding: 0 0 0.5em 0;
-}
-/* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-product-image {
-  display: block;
-  float: left;
-  margin-right: 1em;
-}
-/* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-product-title {
-  margin-top: 0;
-  text-transform: uppercase;
-  color: black;
-  margin: 0;
-}
-/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.subfooter-widget-product-title a {
-  text-decoration: none;
-  color: inherit;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
-.subfooter-widget-product-title a:hover, .subfooter-widget-product-title a:focus {
-  text-decoration: underline;
-}
-/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
-.subfooter-widget-product-title a:hover {
-  color: inherit;
-}
-/* line 23, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-.subfooter-widget-section-socials li, .subfooter-widget-section-tagcloud li {
-  display: inline-block;
-}
-
-@media (min-width: 768px) {
-  /* line 32, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-  .subfooter-widget {
-    width: 31.91489%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 34, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
-  .subfooter-widget:last-child {
-    width: 31.91489%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-.service {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-.services {
-  padding: 1em 0.5em;
-}
-
-@media (min-width: 480px) {
-  /* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service {
-    width: 48.93617%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 10, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service:nth-child(2), .service:nth-child(4) {
-    width: 48.93617%;
-    float: right;
-    margin-right: 0;
-  }
-}
-@media (min-width: 768px) {
-  /* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 18, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service:nth-child(2) {
-    width: 23.40426%;
-    float: left;
-    margin-right: 2.12766%;
-  }
-  /* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
-  .service:nth-child(4) {
-    width: 23.40426%;
     float: right;
     margin-right: 0;
   }
@@ -6178,19 +5560,830 @@ Modified icons to fit ionicon’s grid from original.
   animation-timing-function: steps(8, start);
 }
 
-/* line 48, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
+/* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
 body {
-  background-color: red;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+/* line 17, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* line 20, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.main-header-title {
+  font-size: 1.75em;
+}
+/* line 22, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.main-header-title > span {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 2em;
+  font-style: italic;
+}
+
+/* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.service {
+  text-align: center;
+}
+/* line 30, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.service [class^="ion-"] {
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+
+/* line 36, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.subfooter-widget-section-text > p {
+  min-height: 4.5em;
+}
+/* line 4, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_dropcap.scss */
+.subfooter-widget-section-text > p:first-of-type:first-letter {
+  float: left;
+  padding-top: 0.09em;
+  padding-right: 0.225em;
+  font-size: 4.5em;
+  font-family: "Bilbo Swash Caps", cursive;
+  color: black;
+}
+/* line 2, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .xs {
+  font-size: 0.5em;
+}
+/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .sm {
+  font-size: 0.75em;
+}
+/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .md {
+  font-size: 1em;
+}
+/* line 11, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .lg {
+  font-size: 1.25em;
+}
+/* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_tag-cloud.scss */
+.subfooter-widget-section-tagcloud .xl {
+  font-size: 1.5em;
+}
+/* line 42, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.subfooter-widget-section-socials {
+  font-size: 2em;
+}
+
+/* line 46, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_typography.scss */
+.section-title {
+  text-align: center;
+  padding-top: 2em;
+}
+/* line 4, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_underline.scss */
+.section-title::after {
+  display: block;
+  content: " ";
+  position: relative;
+  height: 3px;
+  background-color: #7099c2;
+  top: 0;
+  width: 3em;
+  margin-top: 0.75em;
+  left: 50%;
+  margin-left: -1.5em;
+}
+
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.top-nav a, .top-nav [class^="ion-"], .main-nav a, .main-nav [class^="ion-"] {
+  color: white;
+}
+
+/* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.top-nav {
+  background-color: #7099c2;
+}
+/* line 19, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.top-nav a {
+  text-decoration: none;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.top-nav a:hover, .top-nav a:focus {
+  text-decoration: underline;
+}
+
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.main-nav {
+  background-color: #3a3636;
+}
+/* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.main-nav-menu-item a {
+  text-decoration: none;
+}
+/* line 31, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.main-nav-menu-item:hover a {
+  color: #7099c2;
+}
+/* line 36, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.main-header-title > span {
+  color: #7099c2;
+}
+
+/* line 41, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.search-bar-input, .search-bar-button {
+  border: 1px solid #3a3636;
+}
+/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.search-bar-input:active, .search-bar-input:focus, .search-bar-input:hover, .search-bar-button:active, .search-bar-button:focus, .search-bar-button:hover {
+  border: 1px solid #7099c2;
+}
+/* line 47, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.search-bar-button {
+  background-color: #3a3636;
+  color: white;
+}
+/* line 51, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.search-bar-button:active, .search-bar-button:focus, .search-bar-button:hover {
+  background-color: #7099c2;
+}
+
+/* line 56, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.service [class^="ion-"] {
+  color: #7099c2;
+}
+
+/* line 59, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer {
+  background-color: #3a3636;
+  color: white;
+}
+/* line 63, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer a, .footer a:hover,
+.footer .subfooter a,
+.footer .subfooter a:hover {
+  text-decoration: none;
+  color: #7099c2;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.footer a:hover, .footer a:focus, .footer a:hover:hover, .footer a:hover:focus,
+.footer .subfooter a:hover,
+.footer .subfooter a:focus,
+.footer .subfooter a:hover:hover,
+.footer .subfooter a:hover:focus {
+  text-decoration: underline;
+}
+/* line 69, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer .subfooter-widget-section-text > p:first-of-type::first-letter {
+  color: #7099c2;
+}
+/* line 72, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/theme/_color.scss */
+.footer .footer-inner:last-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav {
+  overflow: hidden;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-button {
+  padding: 1em;
+}
+@media (min-width: 480px) {
+  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-button {
+    display: none;
+  }
+}
+/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-button ~ * {
+  display: none;
+}
+@media (min-width: 480px) {
+  /* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-button ~ * {
+    display: block;
+  }
+}
+/* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+.top-nav-menu-item {
+  padding: 1em;
+  display: block;
+}
+@media (min-width: 480px) {
+  /* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-menu-item {
+    display: inline-block;
+  }
 }
 @media (min-width: 768px) {
-  /* line 48, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
-  body {
-    background-color: green;
+  /* line 22, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-contact-menu {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  /* line 27, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_top-nav.scss */
+  .top-nav-shop-menu {
+    float: right;
   }
 }
 
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header {
+  overflow: hidden;
+}
 @media (min-width: 768px) {
-  /* line 54, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
+  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  .main-header-title {
+    margin-top: 0.8em;
+    line-height: 3em;
+  }
+}
+
+/* line 10, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-inner {
+  padding: 1em;
+}
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-inner-left {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  .main-header-inner-left {
+    width: 65.95745%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+}
+/* line 18, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+.main-header-inner-right {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 18, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-header.scss */
+  .main-header-inner-right {
+    width: 31.91489%;
+    float: right;
+    margin-right: 0;
+    padding-top: 2.8em;
+  }
+}
+
+/* line 2, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-item {
+  padding: 1em;
+  display: block;
+}
+@media (min-width: 480px) {
+  /* line 2, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-item {
+    display: inline-block;
+  }
+}
+/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-button {
+  padding: 1em;
+}
+@media (min-width: 480px) {
+  /* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-button {
+    display: none;
+  }
+}
+/* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+.main-nav-menu-button ~ * {
+  display: none;
+}
+@media (min-width: 480px) {
+  /* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_main-nav.scss */
+  .main-nav-menu-button ~ * {
+    display: block;
+  }
+}
+
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_search.scss */
+.search-bar {
+  position: relative;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_search.scss */
+.search-bar-input {
+  width: 100%;
+  line-height: 1.4;
+  max-height: 2em;
+  padding: 0.25em 2em 0.25em 0.25em;
+}
+/* line 11, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_search.scss */
+.search-bar-button {
+  line-height: 1.4;
+  max-height: 2em;
+  padding: 0.25em 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  right: -100vw;
+  transition: transform 350ms;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  /* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+  .cart {
+    width: 20em;
+    right: -20em;
+  }
+}
+/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 48, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item {
+  padding: 1em 1em 1em 0;
+  overflow: hidden;
+}
+/* line 50, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-image {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  max-width: 50px;
+  height: auto;
+}
+/* line 55, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+}
+/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.cart-list-item-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.cart-list-item-title a:hover, .cart-list-item-title a:focus {
+  text-decoration: underline;
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.cart-list-item-title a:hover {
+  color: inherit;
+}
+/* line 58, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-price {
+  float: left;
+}
+/* line 60, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-price-label {
+  font-weight: bold;
+}
+/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart-list-item-remove {
+  text-decoration: none;
+  float: right;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.cart-list-item-remove:hover, .cart-list-item-remove:focus {
+  text-decoration: underline;
+}
+
+/* line 71, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+.cart.is-opened {
+  transform: translateX(-100vw);
+}
+@media (min-width: 768px) {
+  /* line 71, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_cart.scss */
+  .cart.is-opened {
+    transform: translateX(-20em);
+  }
+}
+
+/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-overlay {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 980px) {
+  /* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+  .image-banner-overlay {
+    height: 400px;
+  }
+}
+/* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-caption {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  overflow: hidden;
+  color: white;
+}
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/node_modules/susy/sass/susy/output/support/_clearfix.scss */
+.image-banner-caption:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 980px) {
+  /* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+  .image-banner-caption {
+    position: relative;
+    top: 100px;
+  }
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-caption-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.image-banner-caption-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.image-banner-caption-title a:hover, .image-banner-caption-title a:focus {
+  text-decoration: underline;
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.image-banner-caption-title a:hover {
+  color: inherit;
+}
+/* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_image-banner.scss */
+.image-banner-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #7099c2;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.image-banner-button:hover {
+  color: #7099c2;
+  background: transparent;
+  border: 1px solid;
+}
+
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-product {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-product-title {
+  padding-top: 2em;
+}
+/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+.featured-products {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 1em;
+}
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/node_modules/susy/sass/susy/output/support/_clearfix.scss */
+.featured-products:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 480px) {
+  /* line 15, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 17, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(2), .featured-product:nth-child(4) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 28, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(2) {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 31, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_featured-product.scss */
+  .featured-product:nth-child(4) {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_product-centered.scss */
+.product-centered {
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-image {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+/* line 75, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #7099c2;
+  margin-top: 1em;
+}
+/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.product-centered-title a:hover, .product-centered-title a:focus {
+  text-decoration: underline;
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-title a:hover {
+  color: inherit;
+}
+/* line 79, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #7099c2;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.product-centered-button:hover {
+  color: #7099c2;
+  background: transparent;
+  border: 1px solid;
+}
+/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_product-centered.scss */
+.product-centered-title {
+  margin-top: 0;
+}
+
+/* line 5, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonial {
+  max-width: 20em;
+  margin: 0 auto;
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 64, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-image {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  border-radius: 9999px;
+}
+/* line 75, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1em;
+}
+/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.testimonial-title a:hover, .testimonial-title a:focus {
+  text-decoration: underline;
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-title a:hover {
+  color: inherit;
+}
+/* line 79, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-button {
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: white;
+  border: 1px solid transparent;
+  float: none;
+}
+/* line 43, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.testimonial-button:hover {
+  color: white;
+  background: transparent;
+  border: 1px solid;
+}
+/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonial blockquote, .testimonial cite {
+  color: white;
+}
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonials {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 18, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_testimonials.scss */
+.testimonials-overlay {
+  min-height: 300px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  /* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+  .footer-copyright, .footer-nav {
+    width: 50%;
+    float: left;
+  }
+}
+/* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-copyright {
+  padding: 2em 1em;
+}
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-nav-menu {
+  float: right;
+}
+/* line 14, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_footer.scss */
+.footer-nav-menu-item a {
+  display: inline-block;
+  padding: 2em 1em;
+}
+
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter {
+  padding: 4em 1em 2em 1em;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 8, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 10, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-product {
+  padding: 1em;
+  overflow: hidden;
+  padding: 0 0 1em 0;
+}
+/* line 13, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-product-image {
+  display: block;
+  float: left;
+  margin-right: 2em;
+}
+/* line 16, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-product-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}
+/* line 21, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.subfooter-widget-product-title a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_hover-link.scss */
+.subfooter-widget-product-title a:hover, .subfooter-widget-product-title a:focus {
+  text-decoration: underline;
+}
+/* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/helpers/mixins/_media.scss */
+.subfooter-widget-product-title a:hover {
+  color: inherit;
+}
+/* line 23, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+.subfooter-widget-section-socials li, .subfooter-widget-section-tagcloud li {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  /* line 32, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+  .subfooter-widget {
+    width: 31.91489%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 34, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_subfooter.scss */
+  .subfooter-widget:last-child {
+    width: 31.91489%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 1, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+.service {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 3, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+.services {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 1em;
+}
+/* line 12, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/node_modules/susy/sass/susy/output/support/_clearfix.scss */
+.services:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 480px) {
+  /* line 9, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 11, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service:nth-child(2), .service:nth-child(4) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 17, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 19, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service:nth-child(2) {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+  /* line 22, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/components/_services.scss */
+  .service:nth-child(4) {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 24, ../../../home/nikita/Frontend/mastering-sass/mastering-sass-swag/assets/scss/style.scss */
   main {
     min-height: 800px;
   }

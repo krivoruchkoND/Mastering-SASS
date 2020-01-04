@@ -1,0 +1,13 @@
+@mixin dropcap ($size: 4.5em, $color: black, $font-family: $accent-font-family){
+	min-height: $size;
+
+	&:first-of-type:first-letter{
+		float: left;
+		padding-top: #{($size * 0.02)};
+		padding-right: #{($size * 0.05)};
+
+		font-size: $size;
+		font-family: $font-family;
+		color: $color;
+	}
+}

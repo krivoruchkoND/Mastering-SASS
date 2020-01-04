@@ -1,6 +1,7 @@
 .service {
 	@include span(12);
 	&s {
+		@include container;
 		padding: $spacing ($spacing / 2);
 	}
 }

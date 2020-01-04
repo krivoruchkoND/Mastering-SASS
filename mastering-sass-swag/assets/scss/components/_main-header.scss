@@ -1,3 +1,12 @@
+.main-header {
+	overflow: hidden;
+	&-title {
+		@include bp {
+			margin-top: ($spacing * 0.4);
+			line-height: ($spacing * 1.5);
+		}
+	}
+}
 .main-header-inner {
 	padding: $spacing / 2;
 	&-left {
@@ -10,6 +19,7 @@
 		@include span(12);
 		@include bp {
 			@include span(4 last);
+			padding-top: ($spacing * 1.4);
 		}
 	}
 }

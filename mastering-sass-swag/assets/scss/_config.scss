@@ -1,0 +1,41 @@
+$red: hsl(0,57%, 60%) !default;
+$blue: hsl(210, 40%, 60%);
+$dark-grey: hsl(0, 3%, 22%) !default;
+
+$theme:(
+	color:(
+		primary: $blue,
+		secondary: $dark-grey
+	)
+) !default;
+$spacing: 2em;
+$default-breakpoint: medium;
+$breakpoints: (
+	small: 480px,
+	medium: 768px,
+	large: 980px);
+$cart: (
+	slide-in: right,
+	height: 100vh,
+	width: (
+		small: 100vw,
+		medium: 20em),
+	spacing: 1em,
+	bg-color: white,
+	transition-speed: 350ms);
+$grid: (
+	max-width: 1160px, gutter: 1em);
+$susy: (
+	container: 1160px,
+	columns: 12,
+	gutters: 1/3);
+$image-banner: (
+	height: 400px,
+	overlay-color: hsla(0, 0%, 0%, 0.5));
+$testimonials: (
+	height: 300px,
+	overlay-color: hsla(0, 0%, 0%, 0.5));
+$ionicons-font-path: "fonts/ionicons";
+$fonts :(
+	'Bilbo+Swash+Caps',
+	'Roboto');
